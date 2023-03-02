@@ -5,14 +5,14 @@
 @description    A GruvBox theme for GitHub.
 @author         Sam McGowan
 ==/UserStyle== */
-
 @-moz-document domain("github.com") {
   /* GruvBox colours */
   :root {
     --gruv-bg0_h: #1d2021;
-    --gruv-bg0_s: #282828; /*default : #32302f;*/
-
-    --gruv-bg0: #1d2021; /*default : #282828*/
+    --gruv-bg0_s: #282828;
+    /*default : #32302f;*/
+    --gruv-bg0: #1d2021;
+    /*default : #282828*/
     --gruv-bg1: #3c3836;
     --gruv-bg2: #504945;
     --gruv-bg3: #665c54;
@@ -73,7 +73,7 @@
     --color-page-header-bg: var(--gruv-bg);
 
     --color-border-muted: var(--gruv-bg0_h);
-    --color-border-default: var(--gruv-bg0_s);
+    --color-border-default: var(--gruv-purple-light);
 
     --color-btn-text: var(--gruv-fg2);
     --color-btn-bg: var(--gruv-bg1);
@@ -195,5 +195,37 @@
   code {
     font-family: monospace;
     font-size: 0.8em;
+  }
+
+  .ekYzge {
+    background-color: var(--gruv-bg0_s);
+  }
+
+  .bdnjUN {
+    background-color: var(--gruv-bg0);
+    border-color: var(--gruv-bg1);
+  }
+  .ctGJvP,
+  .bmQDSu {
+    background-color: var(--color-attention-subtle);
+  }
+
+  .TextInput-wrapper {
+    background-color: var(--gruv-bg0_s);
+  }
+
+  .hGayzV {
+    background-color: var(--gruv-bg0);
+    color: var(--color-fg-default);
+  }
+
+  .krbgqA > a {
+    color: var(--gruv-yellow-light);
+  }
+  .Label {
+    border: 2px dotted var(--gruv-bg3);
+    border-radius: 2px;
+    color: var(--gruv-yellow-dark);
+    font-weight: bold;
   }
 }
